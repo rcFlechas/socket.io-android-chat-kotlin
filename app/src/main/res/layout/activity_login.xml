@@ -15,7 +15,7 @@
             android:layout_gravity="center"
             android:orientation="vertical">
 
-        <EditText
+        <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/username_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
                 android:maxLength="14"
                 android:maxLines="1"
                 android:singleLine="true"/>
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/sign_in_button"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"

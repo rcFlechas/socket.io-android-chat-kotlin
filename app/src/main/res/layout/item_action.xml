@@ -6,7 +6,7 @@
         android:gravity="center_vertical"
         android:paddingTop="@dimen/spacing">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/username"
             style="?android:textAppearanceMedium"
             android:textColor="?android:textColorPrimary"
@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:textStyle="bold"/>
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/action"
             style="?android:textAppearanceMedium"
             android:textColor="?android:textColorSecondary"

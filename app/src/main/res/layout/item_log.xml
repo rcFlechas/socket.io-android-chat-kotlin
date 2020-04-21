@@ -5,7 +5,7 @@
         android:orientation="vertical"
         android:paddingTop="@dimen/spacing">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/message"
             style="?android:textAppearanceSmall"
             android:textColor="?android:textColorSecondary"
