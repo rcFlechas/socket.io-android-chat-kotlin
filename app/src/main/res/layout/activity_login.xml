@@ -16,7 +16,7 @@
             android:orientation="vertical">
 
         <androidx.appcompat.widget.AppCompatEditText
-                android:id="@+id/username_input"
+                android:id="@+id/usernameEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/prompt_username"
